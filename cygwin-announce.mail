@@ -1,12 +1,11 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: readpst 0.5.2-1 -- Convert Outlook PST files to mbox and others
+Subject: Updated: readpst 0.5.3-1 -- Convert Outlook PST files to mbox and others
 
 PACKAGE DESCRIPTION
 ===================
 
 Homepage: http://packages.debian.org/readpst
-License : GPL
+License : GPL-2
 
 ReadPST is an application that can take a Microsoft Outlook PST
 (Personal Folders) file and convert it into mbox, kmail, its own
@@ -16,7 +15,7 @@ emails, folders and most contacts.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None.
+See /usr/share/doc/readpst/ChangeLog
 
 INSTALL OR UPGRADE NOTES
 ========================

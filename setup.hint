@@ -4,4 +4,4 @@ Folders) file and convert it into mbox, kmail, its own recursive
 format, or separate each email into its own file. Handles emails,
 folders and most contacts."
 category: Mail
-requires: cygwin
+requires: libgcc1
