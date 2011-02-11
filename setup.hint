@@ -1,0 +1,7 @@
+sdesc: "Convert Outlook PST files to mbox and others"
+ldesc: "An application that can take a Microsoft Outlook PST (Personal
+Folders) file and convert it into mbox, kmail, its own recursive
+format, or separate each email into its own file. Handles emails,
+folders and most contacts."
+category: Mail
+requires: cygwin

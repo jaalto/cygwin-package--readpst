@@ -1,0 +1,2 @@
+tag1: readpst
+  http://packages.debian.org/unstable/readpst pregexp:orig.tar.gz file:libpst_0.5.2.orig.tar.gz new: x:

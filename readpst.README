@@ -1,0 +1,61 @@
+readpst
+------------------------------------------
+
+Convert Outlook PST files to mbox and others
+
+An application that can take a Microsoft Outlook PST (Personal
+Folders) file and convert it into mbox, kmail, its own recursive
+format, or separate each email into its own file. Handles emails,
+folders and most contacts.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/readpst
+
+Canonical download:
+  See above
+
+Upstream contact:
+  Author: Dave Smith <dave.s@earthcorp.com>
+  Bugs: Dave Smith <dave.s@earthcorp.com>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack readpst-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./readpst*.sh all
+
+-------------------------------------------
+
+Files included in the binary distro:
+  See content of *.tar.gz
+
+------------------
+
+Port Notes:
+- Original package uses "libpst" everywhere, but the program
+  name is "readpst". Necessary changes in build structure are needed
+  to change to use readpst.
+- readpst.c: Change all int32_t function prototypes to int
+- Makefile top level: Remove INSTALL options -o root -g root
+- Makefile install: Change readpst{,log} => readpst readpstlog
+
+----- version 0.5.2-1 -----
+- Initial release 2008-06-28 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
