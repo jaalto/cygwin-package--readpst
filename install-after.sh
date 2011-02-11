@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright (C) 2008 Jari Aalto; Licenced under GPL v2 or later
+# Copyright (C) 2008-2011 Jari Aalto; Licenced under GPL v2 or later
 #
 # install-after.sh -- Custom installation
 #
@@ -36,10 +36,8 @@ Main()
     bindir=$root/usr/bin
     sharedir=$root/usr/share
 
-    docdir=$(cd $root/usr/share/doc/[a-zA-Z]*-*[0-9] && pwd)
-    [ "$docdir" ] || return 0
-
-    echo ">> Removing duplicate documentation (already installed)"
+    echo ">> Moving doc/libpst to doc/readpst"
+    Cmd mv $sharedir/doc/libpst/* $sharedir/doc/readpst/
     Cmd rm -rf $sharedir/doc/libpst
 }
 
