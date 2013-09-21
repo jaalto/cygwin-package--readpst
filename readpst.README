@@ -54,6 +54,9 @@ Port Notes:
 - Makefile top level: Remove INSTALL options -o root -g root
 - Makefile install: Change readpst{,log} => readpst readpstlog
 
+----- version 0.6.59-1 -----
+- New upstream release 2013-09-21 Jari Aalto
+
 ----- version 0.5.3-1 -----
 - New upstream release 2011-02-11 Jari Aalto
 
@@ -61,4 +64,4 @@ Port Notes:
 - Initial release 2008-06-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008-2011 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later
