@@ -10,9 +10,17 @@ folders and most contacts.
 
 Runtime requirements:
   libgcc1
+  libgd2
+  libglib2.0_0
+  libgsf1_114
+  libiconv2
+  libstdc++6
 
 Build requirements:
-
+  libiconv-devel
+  libglib2.0-devel
+  libgsf-devel
+  libgd-devel
 
 Canonical homepage:
   http://packages.debian.org/readpst
