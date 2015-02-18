@@ -15,12 +15,16 @@ Runtime requirements:
   libgsf1_114
   libiconv2
   libstdc++6
+  libboost_python1.55
 
 Build requirements:
+  libtool
+  autoconf
   libiconv-devel
   libglib2.0-devel
   libgsf-devel
   libgd-devel
+  libboost_python-devel
 
 Canonical homepage:
   http://packages.debian.org/readpst
@@ -62,6 +66,10 @@ Port Notes:
 - Makefile top level: Remove INSTALL options -o root -g root
 - Makefile install: Change readpst{,log} => readpst readpstlog
 
+----- version 0.6.59-2 -----
+- New release 2015-02-16 Jari Aalto
+- Compile with libgd3
+
 ----- version 0.6.59-1 -----
 - New upstream release 2013-09-21 Jari Aalto
 
@@ -72,4 +80,4 @@ Port Notes:
 - Initial release 2008-06-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2008-2015 Jari Aalto; Licensed under GPL v2 or later

@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: readpst 0.6.59-1 -- Convert Outlook PST files to mbox and others
+Subject: Updated: readpst 0.6.59-2 -- Convert Outlook PST files to mbox and others
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -16,6 +16,7 @@ emails, folders and most contacts.
 CHANGES SINCE LAST RELEASE
 ==========================
 
+Cygwin: compile with libgd3
 See /usr/share/doc/readpst/ChangeLog
 
 INSTALL OR UPGRADE NOTES
