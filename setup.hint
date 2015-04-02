@@ -3,5 +3,5 @@ ldesc: "An application that can take a Microsoft Outlook PST (Personal
 Folders) file and convert it into mbox, kmail, its own recursive
 format, or separate each email into its own file. Handles emails,
 folders and most contacts."
-category: Mail
-requires: libgcc1 libgd3 libglib2.0_0 libgsf1_114 libiconv2 libstdc++6
+category: Mail Python
+requires: python libgcc1 libgd3 libglib2.0_0 libgsf1_114 libiconv2 libstdc++6 libboost_python1.55
