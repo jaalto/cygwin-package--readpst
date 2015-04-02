@@ -25,6 +25,7 @@ Build requirements:
   libgsf-devel
   libgd-devel
   libboost_python-devel
+  quilt
 
 Canonical homepage:
   http://packages.debian.org/readpst
@@ -69,6 +70,7 @@ Port Notes:
 ----- version 0.6.59-2 -----
 - New release 2015-02-16 Jari Aalto
 - Compile with libgd3
+- Add patch to link with -lpython2.7 (fix x86-32 build)
 
 ----- version 0.6.59-1 -----
 - New upstream release 2013-09-21 Jari Aalto
