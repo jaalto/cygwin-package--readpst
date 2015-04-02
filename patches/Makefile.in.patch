@@ -1,3 +1,6 @@
+From: Jari Aalto <jari.aalto@cante.net>
+Subject: In x86-32 the linking needs Python libraries
+
 ---
  python/Makefile.in |    2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
